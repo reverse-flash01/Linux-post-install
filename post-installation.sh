@@ -28,7 +28,9 @@ echo "Installation complete"
 echo "Setting up powertop and tlp........"
 powertop --auto-tune
 tlp start
-"Setting up Swap area..."
+echo "changing the default shell....."
+chsh -s /usr/bin/fish
+echo "Setting up Swap area..."
 sudo -u $SUDO_USER sleep 1
 zramtcl
 echo "Setting up the equalizer.........."
