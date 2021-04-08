@@ -10,6 +10,7 @@ Currently, this script performs the following task:
 - Change the default shell to `fish` because I :heart: it
 - Sets up and installs `pulseeffect` audio profiles
 - Cleans up any packages that are no longer need
+- Sets up `zram` swap
 - reboots
 
 ## TO-DO:
