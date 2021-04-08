@@ -11,6 +11,7 @@ Currently, this script performs the following task:
 - Sets up and installs `pulseeffect` audio profiles
 - Cleans up any packages that are no longer need
 - Sets up `zram` swap
+- Add `~/bin/` to the `PATH`
 - reboots
 
 ## TO-DO:

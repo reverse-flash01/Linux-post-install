@@ -30,6 +30,8 @@ powertop --auto-tune
 tlp start
 echo "changing the default shell....."
 chsh -s /usr/bin/fish
+echo "adding bin folder to the PATH in fish shell.........."
+sudo -u "$SUDO_USER" fish -c "set -Ua fish_user_paths bin/"
 echo "Setting up Swap area..."
 sudo -u "$SUDO_USER" sleep 1
 zramtcl
