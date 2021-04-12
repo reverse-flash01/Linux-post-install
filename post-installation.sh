@@ -19,7 +19,7 @@ echo "Updating the system.........."
 apt update && apt upgrade -y
 sudo -u "$SUDO_USER" sleep 1
 echo "Installing new packages.........."
-apt install code unp pulseeffects typora default-jre vnstat micro zram-config deja-dup unrar wget plank curl git neofetch nautilus-script-manager fish build-essential powertop htop tlp python3-pip gnome-tweaks tmux vlc plymouth-themes scrcpy -y
+apt install code unp ffmpeg pulseeffects typora default-jre vnstat micro zram-config deja-dup unrar wget plank curl git neofetch nautilus-script-manager fish build-essential powertop htop tlp python3-pip gnome-tweaks tmux vlc plymouth-themes scrcpy -y
 sudo -u "$SUDO_USER" flatpak install zoom jdowloader -y
 echo "installing pip packages........"
 sudo -u "$SUDO_USER" sleep 1
